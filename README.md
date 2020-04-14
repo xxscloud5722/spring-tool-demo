@@ -9,7 +9,7 @@
 
 
 # Gson 替换Spring 序列化
-```
+```java
 @Configurable
 public class MvcConfig {
     public Gson gson() {
@@ -58,7 +58,7 @@ public class MvcConfig {
 ```
 
 # WebSessionResolver 注入身份信息
-```
+```java
 class xxx implements WebMvcConfigurer {
         @Override
         public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
